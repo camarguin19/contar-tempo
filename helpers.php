@@ -1,4 +1,14 @@
 <?php
+
+function validarUrl(string $url) 
+{
+    return filter_var($url, FILTER_VALIDATE_URL);
+}
+function validarEmail(string $email): bool
+{
+    return filter_var($email, FILTER_VALIDATE_EMAIL);
+}
+
 function contarTempo(string $data)
 {
 
