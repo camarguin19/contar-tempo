@@ -3,7 +3,12 @@
 include_once 'sistema/configuracao.php';
 require_once 'helpers.php';
 
-if (validarUrl('http://teste.com')) {
+$url = 'http://livro.com';
+var_dump(validarUrl($url));
+echo '<hr>';
+var_dump(validarUrlComFiltro($url));
+
+/*if (validarUrl('http://teste.com')) {
     echo 'URL válida';
 }else {
     echo 'URL inválida';
@@ -11,7 +16,7 @@ if (validarUrl('http://teste.com')) {
 
 echo '<br>';
 
-if (validarEmail('teste@teste.com')) {
+/*if (validarEmail('teste@teste.com')) {
     echo 'E-mail válido';
 }else {
     echo 'E-mail inválido';
@@ -20,5 +25,5 @@ if (validarEmail('teste@teste.com')) {
 //var_dump(validarEmail('teste@terra.com'));
 
 //echo '<br>';
-//echo contarTempo('2024-01-07 19:59:00');
+//echo contarTempo('2024-01-07 19:59:00');*/
 ?>
