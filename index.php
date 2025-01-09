@@ -3,7 +3,14 @@
 include_once 'sistema/configuracao.php';
 require_once 'helpers.php';
 
-$url = 'http://livro.com';
+//var_dump(localhost());
+
+echo url('admin');
+/*echo SITE_NOME;
+echo '<br>';
+echo constant('SITE_NOME');
+
+/*$url = 'http://livro.com';
 var_dump(validarUrl($url));
 echo '<hr>';
 var_dump(validarUrlComFiltro($url));
