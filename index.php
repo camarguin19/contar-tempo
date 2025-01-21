@@ -5,7 +5,7 @@ require_once 'helpers.php';
 
 //var_dump(localhost());
 
-echo url('admin');
+echo url('admin'    );
 /*echo SITE_NOME;
 echo '<br>';
 echo constant('SITE_NOME');

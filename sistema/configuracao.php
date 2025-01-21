@@ -1,6 +1,6 @@
 <?php 
 
-date_default_timezone_set('Ameria/Sao_Paulo');
+date_default_timezone_set('America/Sao_Paulo');
 
 define('SITE_NOME', 'UnSet');
 define('SITE_DESCRCAO', 'Unset - Tecnologia em sistemas');
